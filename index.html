@@ -1,40 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">    
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <!-- OUTROS -->
+    <!-- OUTROS -->
     <link rel="shortcut icon" href="src/imgs/nasa-logo.svg" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
 
-            <!-- CSS -->
+    <!-- CSS -->
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="stylesheet" href="src/css/reset.css">
 
-            <!-- JAVASCRIPT -->
-            <script src="src/js/main.js" defer></script>
+    <!-- JAVASCRIPT -->
+    <script src="src/js/main.js" defer></script>
     <title>Nasa work</title>
 </head>
+
 <body>
-    
+
     <main>
         <div id="conteudo">
             <div class="info">
                 <h1> imagem astronômica do dia</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos laboriosam voluptas quisquam deleniti similique! Officia earum nobis a illo. Aspernatur dolorem corporis impedit blanditiis quidem eius, deserunt reiciendis nemo officia? Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis perspiciatis accusamus excepturi non aliquam eligendi quas id cum quam tempora blanditiis totam natus consequuntur nam facere vitae, expedita quos? Aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam doloribus quidem eum deserunt qui laudantium praesentium, reiciendis dolore nisi. Facilis consequuntur deleniti quaerat porro voluptate tempora ducimus illum iste quas.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos laboriosam voluptas quisquam deleniti
+                    similique! Officia earum nobis a illo. Aspernatur dolorem corporis impedit blanditiis quidem eius,
+                    deserunt reiciendis nemo officia? Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+                    perspiciatis accusamus excepturi non aliquam eligendi quas id cum quam tempora blanditiis totam
+                    natus consequuntur nam facere vitae, expedita quos? Aliquid. Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Ullam doloribus quidem eum deserunt qui laudantium praesentium, reiciendis dolore
+                    nisi. Facilis consequuntur deleniti quaerat porro voluptate tempora ducimus illum iste quas.</p>
             </div>
         </div>
-        
+
     </main>
 
     <footer id="date">
         <h2>Selecionar data</h2>
-            <label for="data"></label>
-            <input type="date" id="data" name = "data">
-            <button id="btn"> <img src="src/imgs/photo_icon.png" alt="icone galeria"></button>
+        <label for="data"></label>
+        <input type="date" id="data" name="data">
+        <button id="btn"> <img src="src/imgs/photo_icon.png" alt="icone galeria"></button>
     </footer>
-    
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+      
 </body>
+
 </html>

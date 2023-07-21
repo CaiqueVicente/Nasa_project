@@ -10,12 +10,7 @@ main{
     flex-direction: column;
     justify-content: center;
     margin-top: 10rem;
-    color: white;
-    
-}
-
-footer{
-    display: flex;
+    color: #ffffff;
     
 }
 
@@ -44,16 +39,21 @@ main p{
     justify-content: center;
     padding: 115px 10px 235px 0;
     gap: 5px;
-    color: rgb(255, 254, 254);
+    color: #fffefe;
   
 }
 
 #date input{
-    background-color: cadetblue;
-    color: white;
-    border-radius: 10px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+    background-color: #9681EB;
+    
 }
-
 
 
 #btn img{  
@@ -69,8 +69,12 @@ main p{
     justify-content: center;
     max-width: 1%;
     margin-left: 12px;
-    background-color: white;
+    background-color: #ffffff;
     background: none;
     border: none;
 }
 
+footer{
+    display: flex;
+    
+}
