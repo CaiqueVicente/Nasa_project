@@ -14,9 +14,15 @@ main{
     
 }
 
-.info{
-    display: none;
+@font-face {
+    font-family: "minhaFonte";
+    src: url(../fonts/VCRosdNEUE.ttf);
 }
+
+.info{
+    font-family: minhaFonte;
+}
+
 
 main h1 {
     padding-bottom: 1rem;
@@ -56,25 +62,29 @@ main p{
 }
 
 
-#btn img{  
-    background: none;
-    width: 20px;
-}
-#btn img:hover{
-    width: 25px;
+#btn{
+    margin: 8px 0 0 15px;   
+    width: 90px;
+    height: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
 }
 
-#btn{
-    display: flex;
-    justify-content: center;
-    max-width: 1%;
-    margin-left: 12px;
-    background-color: #ffffff;
-    background: none;
-    border: none;
+#btn:hover{
+    width: 100px;
+    height: 25px;
+    font-size: 15px;
 }
 
 footer{
     display: flex;
     
+}
+
+.photo_log{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
