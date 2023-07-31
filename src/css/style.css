@@ -49,6 +49,12 @@ main p{
   
 }
 
+.selecionar{
+    font-family: "minhaFonte";
+    src: url(../fonts/VCRosdNEUE.ttf);
+    color: #b388ff;
+}
+
 #date input{
     appearance: none;
     -webkit-appearance: none;
@@ -57,17 +63,20 @@ main p{
     border-radius: 4px;
     font-size: 16px;
     outline: none;
-    background-color: #9681EB;
-    
+    background-color: #cb00e6;
+    font-family: "minhaFonte";
+    src: url(../fonts/VCRosdNEUE.ttf);
 }
 
-
 #btn{
-    margin: 8px 0 0 15px;   
-    width: 90px;
-    height: 20px;
-    background-color: #ffffff;
-    border-radius: 12px;
+    font-family: "minhaFonte";
+    src: url(../fonts/VCRosdNEUE.ttf);
+    font-size: 16px;
+    justify-content: center;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #4212ff;
+    
 }
 
 #btn:hover{
@@ -88,3 +97,4 @@ footer{
     text-align: center;
     align-items: center;
 }
+
